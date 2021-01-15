@@ -14,3 +14,16 @@ img#image {
     width: 500px;
     height: 400px;
 }
+
+div#img-caption p {
+    margin-top: 0px;
+    text-align: center;
+}
+
+section#tribute-info ul li{
+    font-size: x-large;
+}
+
+.year{
+    font-weight: bold;
+}
