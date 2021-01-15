@@ -20,10 +20,28 @@ div#img-caption p {
     text-align: center;
 }
 
-section#tribute-info ul li{
+section#tribute-info ul li {
     font-size: x-large;
+    padding: 5px;
 }
 
-.year{
+.year {
     font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+sup.link {
+    font-size: x-small;
+}
+
+@media only screen and (min-width:480px) {
+    body {
+        background: gainsboro;
+    }
+    /* section#tribute-info ul li {
+        text-align: right;
+    } */
 }
